@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="420.0" prefWidth="623.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.MainController">
+   <left>
+      <AnchorPane prefHeight="420.0" prefWidth="316.0" style="-fx-background-color: #0598ff;" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fitHeight="148.0" fitWidth="154.0" layoutX="81.0" layoutY="76.0">
+               <image>
+                  <Image url="@../../vote%20hand.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="59.0" layoutY="270.0" text="Vote Management" textFill="WHITE">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </left>
+   <right>
+      <AnchorPane prefHeight="420.0" prefWidth="316.0" BorderPane.alignment="CENTER">
+         <children>
+            <Button fx:id="GoToAdminRegisterAdmin" layoutX="89.0" layoutY="253.0" mnemonicParsing="false" onAction="#GoToAdminRegisterAdminFunc" style="-fx-background-color: #0598ff;" text="Register Admin">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <ImageView fitHeight="44.0" fitWidth="47.0" layoutX="126.0" layoutY="4.0">
+               <image>
+                  <Image url="@../../many%20users.png" />
+               </image>
+            </ImageView>
+            <Text fill="#0598ff" layoutX="40.0" layoutY="74.0" strokeLineCap="ROUND" strokeLineJoin="BEVEL" strokeWidth="0.0" text="Register or Login" textAlignment="CENTER" underline="true">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </Text>
+            <Button fx:id="GoToAdminOrVoterPage" layoutX="125.0" layoutY="296.0" mnemonicParsing="false" onAction="#GoToAdminOrVoterChooseFunc" prefHeight="24.0" prefWidth="46.0" style="-fx-background-color: #0598ff;">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <ImageView fitHeight="19.0" fitWidth="34.0" layoutX="130.0" layoutY="300.0">
+               <image>
+                  <Image url="@../../back-arrow.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="GoToAdminLoginPage" layoutX="97.0" layoutY="206.0" mnemonicParsing="false" onAction="#GoToAdminLoginPageFunc" style="-fx-background-color: #0598ff;" text="Login Admin">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+         </children>
+      </AnchorPane>
+   </right>
+</BorderPane>
