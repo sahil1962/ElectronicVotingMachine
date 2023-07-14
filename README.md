@@ -3,6 +3,8 @@ Electronic voting machines (EVMs) are used to conduct elections in most of the c
 
 
 ## Demo
+https://github.com/sahil1962/ElectronicVotingMachine/assets/88630749/e6b8874d-b567-4332-8c96-d4f8126663a8
+
 
 
 
